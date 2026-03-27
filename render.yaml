@@ -5,7 +5,7 @@ services:
     plan: free
     buildCommand: "npm install"
     startCommand: "npm start"
-    buildpacks:
+    buildpacks:      # <-- YEH BADLAV HAI (P chota kar diya hai)
       - url: https://github.com/jontewks/puppeteer-heroku-buildpack
     envVars:
       - key: NODE_ENV
